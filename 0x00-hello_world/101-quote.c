@@ -1,8 +1,9 @@
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
- *main-Entry point
+ *main-print out the last part of a quote in the standard error.
  *
- *Return:1
+ *Return: 1 if success.
  */
 int main(void)
 {
