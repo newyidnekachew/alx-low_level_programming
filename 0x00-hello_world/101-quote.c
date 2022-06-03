@@ -1,7 +1,6 @@
-#include<stdio.h>
-#include<unistd.h>
+#include <unistd.h>
 /**
- *main-error function
+ *main-Entry point
  *
  *Return:1
  */
