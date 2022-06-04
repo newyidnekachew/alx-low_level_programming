@@ -10,22 +10,21 @@
 
 int main(void)
 {
-
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-       /* you code goes there */
+  /* you code goes there */
 if (n > 0)
 {
-printf("%dis%s\n", n, "positive");
+printf("%d is %s\n", n, "positive");
 }
 else if (n == 0)
 {
-printf("%dis%s\n", n, "zero");
+printf("%d is %s\n", n, "zero");
 }
 else 
 {
-printf("%dis%s\n", n, "negative");
+printf("%d is %s\n", n, "negative");
 }
 return(0);
 }
