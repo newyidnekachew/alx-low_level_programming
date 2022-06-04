@@ -1,6 +1,5 @@
 #include <time.h>
 #include <stdio.h>
-
 /**
  *main-Determine if the last digit of a random number is
  *
@@ -8,12 +7,11 @@
  *
  *Return: 0 on success
  */
-
 int main(void)
 {
 int n;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+n = srand() - RAND_MAX / 2;
 /* your code goes there */
 if (n % 10 > 5)
 {
