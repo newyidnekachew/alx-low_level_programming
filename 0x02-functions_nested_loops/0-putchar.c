@@ -2,12 +2,11 @@
 /**
 *main - program that prints _putchar
 *
-*Description: prints _putchar
-*Return: always 0 (Success)
+*Return: 0
 */
 int main(void)
 {
-char word [9] = "_putchar\n";
+char word[9]
 int i = 0;
 while (i < 8)
 {
