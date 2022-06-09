@@ -1,4 +1,4 @@
-##include "main.h"
+#include "main.h"
 /**
 *print_last_digit - prints the last digit of a numer.
 *@n: digit to find the last place of.
@@ -15,4 +15,3 @@ a = -a;
 _putchar(a + '0');
 return (a);
 }
-
