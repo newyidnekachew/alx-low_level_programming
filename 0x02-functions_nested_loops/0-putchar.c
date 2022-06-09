@@ -14,6 +14,6 @@ char word [9] = "_putchar\n";
 _putchar(word[1]);
  i++;
 }
- _putchar("\n");
+ _putchar('\n');
 return (0);
 }
