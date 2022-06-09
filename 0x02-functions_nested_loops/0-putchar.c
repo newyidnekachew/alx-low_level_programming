@@ -1,4 +1,4 @@
-int main<main.h>
+int main "main.h"
 /**
 *main - program that prints _putchar
 *
@@ -7,11 +7,13 @@ int main<main.h>
 */
 int main(void)
 {
-char i[] = "_putchar\n";
-int j;
-for (j = 0; j <= 8; j++)
+char word [9] = "_putchar\n";
+ int i = 0;
+ while (i < 8)
 {
-_putchar(i[j]);
+_putchar(word[1]);
+ i++;
 }
+ _putchar("\n");
 return (0);
 }
