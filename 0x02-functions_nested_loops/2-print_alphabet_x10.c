@@ -5,10 +5,11 @@
  */
 void print_alphabet_x10(void)
 {
-int i=0;
-int i = 0;
+int i;
+i = 0;
 char c;
-while (i <= 9)
+while (i <= 10)
+{
 c = 'a';
 while (c <= 'z')
 {
