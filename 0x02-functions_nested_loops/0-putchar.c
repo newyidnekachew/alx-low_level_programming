@@ -1,4 +1,4 @@
-int main "main.h"
+int main<main.h>
 /**
 *main - program that prints _putchar
 *
