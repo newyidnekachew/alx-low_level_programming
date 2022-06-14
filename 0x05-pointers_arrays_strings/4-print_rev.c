@@ -4,12 +4,12 @@
  *@str: pointer to a string to print
  *Return: 0
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 int i = 0;
-while (str[i])
+while (s[i])
 {
-_putchar(str[i]);
+_putchar(s[i]);
 i++;
 }
 _putchar('\n');
