@@ -1,6 +1,8 @@
-#ifndef _CALC_H_
-#define _CALC_H_
+#ifndef _CALC_H
+#define _CALC_H
 /**
+ * Desc: Header file containing all structures and
+ * prototypes used by the 3-main.c program. 
  * struct op - Struct op
  *
  * @op: The operator

@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include <string.h>
+#include <stdlib.h>
 /**
  * get_op_func - selects the correct operation toperform
  * @s: operation to perform 
@@ -17,12 +17,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
-while (ops[i].op != NULL)
-{
-if (strcmp(s, ops[i].op) == 0)
-{
-return (ops[i].f);
-}
+while (ops[i].op != NULL && *(ops[i] != *s)
 i++;
-return (NULL);						
+return (ops[i].f);
 }
