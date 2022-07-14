@@ -20,7 +20,8 @@ dup_str = strdup(str);
 if (dup_str == NULL)
 {
 free(new);
-return (NULL);}
+return (NULL);
+}
 for (len = 0; str[len];)
 len++;
 new->str = dup_str;
