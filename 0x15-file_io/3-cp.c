@@ -44,8 +44,7 @@ exit(100);
  * If file_to cannot be created or written to - exit code 99.
  * If file_to or file_from cannot be closed - exit code 100.
  */
-int main(int argc, char *argv[])
-  
+int main(int argc, char *argv[])  
 {
 int from, to, r, w;
 char *buffer;
